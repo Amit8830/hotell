@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('chicken.jpg');
+    
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: rgba(8, 20, 11, 0.911);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 30px ;
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Cairo', sans-serif;
+background-color: white;
+}
+
+.navbar li a :hover, .navbar li a.active{
+color: rgb(25, 184, 20);
+font-size: 32px;
+
+
+}
+
+.left{
+    position: absolute;
+    top : 2px;
+    left : 20px;
+}
+
+.left img{
+  width: 90px;
+  position: absolute;
+  top: 20px;
+}
+.ab{
+    position: relative;
+    top: 94px;
+    color: rgb(102, 190, 102);
+    right: 8px;
+    font-size: 20px;
+animation: delay 2px;
+}
+
+
+.mid{
+    border:  green;
+    display: block;
+    position: absolute;
+    margin: 20px auto;
+    width: 35%;
+    left: 450px;
+    top: 2px;
+   
+}
+
+.right{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.btn{
+    background-color: rgb(134, 190, 61);
+    color: rgb(236, 234, 231);
+    padding: 5px;
+    font-size: 23px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Cairo', sans-serif;
+border-radius: 7px;
+
+}
+
+.right .btn :hover{
+    color: rgb(10, 12, 15);
+    cursor: pointer;
+ font-size: 16px;
+}
+
+.container{
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+  top: 599px;
+  right: 300px;
+    border: 2px solid rgb(138, 76, 76);
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+.fo{
+    display: inline-block;
+    position: absolute;
+    right: 400px;
+    top: 1px;
+}
+
+.social{    
+    position: relative;
+    display: flex;
+    top: 40px;
+    left: 345px; 
+    } 
+
+.tw {     margin: 0px 10px;
+ } 
+.fb{     margin: 0px 10px;
+ } 
+.in{     margin: 0px 10px;
+ }
+
+ .bt{
+     background-color: yellow;
+     color: rgb(8, 3, 3);
+     font-size: 17px;
+ }
+ .container .social .fb  .bt:hover{
+     cursor: pointer;
+     font-size: 19px; 
+ }
+ .container .social .in .bt:hover {
+    cursor: pointer;
+    size: 20px;
+}
+
+.container .social .tw .bt:hover{
+    cursor: pointer;
+    size: 20px;
+}

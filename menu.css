@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(212, 233, 138);
+    margin: 0px;
+    padding: 0px;
+    background: url('egg.jpg');
+}
+.me{
+    position: relative;
+    left: 600px;
+    font-size: 50px;
+    margin: auto;
+
+}
+.me :hover{
+    background-color: rgb(21, 201, 96);
+    cursor: pointer;
+    font-size:52px ;
+}
+.ta{
+    position: absolute;
+    left: 30px;
+}
+
